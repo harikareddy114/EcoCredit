@@ -1,0 +1,67 @@
+:root {
+    --primary-purple: #6f42c1;
+    --primary-purple-light: #8a63d2;
+    --primary-purple-dark: #5a32a3;
+    --success-purple: #9c27b0;
+    --success-purple-light: #af52bf;
+    --success-purple-dark: #7b1fa2;
+}
+
+/* Buttons */
+.btn-purple {
+    background-color: var(--primary-purple);
+    border-color: var(--primary-purple);
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: var(--primary-purple-dark);
+    border-color: var(--primary-purple-dark);
+    color: white;
+}
+
+/* Text */
+.text-purple {
+    color: var(--primary-purple) !important;
+}
+
+/* Backgrounds */
+.bg-purple {
+    background-color: var(--primary-purple) !important;
+}
+
+.bg-purple-light {
+    background-color: var(--primary-purple-light) !important;
+}
+
+/* Navbar */
+.navbar-purple {
+    background-color: var(--primary-purple) !important;
+}
+
+/* Badges */
+.badge-purple {
+    background-color: var(--primary-purple);
+    color: white;
+}
+
+/* Cards */
+.card-purple {
+    border-color: var(--primary-purple);
+}
+
+/* Icons */
+.icon-purple {
+    color: var(--primary-purple);
+}
+
+/* Links */
+.link-purple {
+    color: var(--primary-purple);
+    text-decoration: none;
+}
+
+.link-purple:hover {
+    color: var(--primary-purple-dark);
+    text-decoration: underline;
+} 
